@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-family: regular;
+}
+body::-webkit-scrollbar{
+    background-color: black;
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(102, 102, 215);
+    border-radius: 10px;
+}
+:root{
+    --grey-bg-color : rgba(51, 51, 51, 0.743);
+    --grey-text-color : rgb(130, 130, 130);
+}
+@font-face {
+    font-family: regular;
+    src: url("/Roboto-woff2.woff2");
+}
+a{
+    text-decoration: none;
+    color: var(--grey-text-color);
+    cursor: pointer;
+} 
+.heading{
+    color: var(--grey-text-color);
+}
+/* nav bar part  */
+.page-1{
+    height: initial;
+}
+.page-1 .navbar{
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.page-1 .navbar i{
+    color: white;
+    font-size: 2rem;
+}
+.page-1 .navbar img{
+    width: 4rem;
+    filter: invert(1);
+}
+  
+/* search bar part */
+.page-1 input[type = text]{
+    border: none;
+    background-color: var(--grey-bg-color);
+    padding:0.5rem  1rem ;
+    border-radius: 40px;
+}
+.page-1 input[type = text]::placeholder{
+    font-size: 0.8rem;
+    color: var(--grey-text-color);
+}
+/* video container part */
+.page-1 .game-content-container{
+    position: relative;
+    height: inherit;
+}
+.page-1 .game-content-container video{
+    width: 100%;
+    object-fit: contain;
+    object-position: center center;
+}
+.page-1 .game-content-container img{
+    width: 100%;
+    object-fit: contain;
+    object-position: center center;
+}
+
+
+.page-1 .carousel-indicators{
+    padding: 0;
+    position: absolute;
+    top: 102%;
+    left: 10%;
+    display: flex;
+}
+.carousel-indicators [data-bs-target] {
+    width: 30%;
+    height: 10vh;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+/* game info section */
+
+.page-1 .game-info .badge{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+
+/* page 2  */
+.page-2{
+    margin-top: 8vmax;
+}
+.page-2 .requirment-container{
+    
+    background-color: var(--grey-bg-color);
+    border-radius: 20px;
+}
+.page-2 .requirment-container .minimum-section{
+    padding: 0;
+}
+.page-2 .requirment-container p{
+    padding: 0;
+    margin: 0;
+}
+.page-2 .requirment-container .policy{
+    font-size: 0.8rem;
+    color: var(--grey-text-color);
+}
+
+/* footer */
+footer{
+    background-color: var(--grey-bg-color);
+}
+footer .links i{
+    font-size: 2rem;
+}
+footer a{
+    color: white;
+    font-size: small;
+}
+footer .copyright{
+    color: var(--grey-text-color);
+}

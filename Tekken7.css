@@ -1,0 +1,9 @@
+.carousel-indicators [data-bs-target]:nth-child(1) {
+    background-image: url("https://img.youtube.com/vi/1V-_q3SKh5w/maxresdefault.jpg");
+}
+.carousel-indicators [data-bs-target]:nth-child(2) {
+    background-image: url("https://p325k7wa.twic.pics/high/tekken/tekken-7/04-retailers/t7-originals-edition.jpg?twic=v1/step=10/quality=80/max=760");
+}
+.carousel-indicators [data-bs-target]:nth-child(3) {
+    background-image: url("https://www.fightersgeneration.com/news2021/game5/tekken7-character-select-lidia.jpg");
+}

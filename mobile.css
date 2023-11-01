@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar{
+    background-color: black;
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(102, 102, 215);
+    border-radius: 10px;
+}
+/* page-1 */
+.page-1 .pic-container{
+    height: fit-content;
+}
+.page-1 .pic-container img{
+    height: 27rem;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: top center;
+}
+.page-3 .image-container{
+    height: 53vmin;
+    overflow: hidden;
+}

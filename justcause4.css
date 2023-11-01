@@ -1,0 +1,9 @@
+.carousel-indicators [data-bs-target]:nth-child(1) {
+    background-image: url("https://img.youtube.com/vi/Lfek7Kcq16g/maxresdefault.jpg");
+}
+.carousel-indicators [data-bs-target]:nth-child(2) {
+    background-image: url("https://images.alphacoders.com/103/thumb-1920-1037345.jpg");
+}
+.carousel-indicators [data-bs-target]:nth-child(3) {
+    background-image: url("https://wallpapercave.com/wp/wp3629274.jpg");
+}

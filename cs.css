@@ -1,0 +1,12 @@
+.carousel-indicators [data-bs-target]:nth-child(1) {
+    background-image: url("https://pixelz.cc/wp-content/uploads/2017/11/counter-strike-global-offensive-uhd-4k-wallpaper.jpg");
+}
+.carousel-indicators [data-bs-target]:nth-child(2) {
+    background-image: url("https://i.pinimg.com/736x/83/38/7c/83387c25cfc1e3b9ace229b0ea547be9.jpg");
+}
+.carousel-indicators [data-bs-target]:nth-child(3) {
+    background-image: url("https://wallpapers.com/images/hd/4k-counter-strike-global-offensive-background-5zxh4561yb54en0x.jpg");
+}
+.game-info img{
+    filter: invert(1);
+}

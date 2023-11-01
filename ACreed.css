@@ -1,0 +1,12 @@
+.carousel-indicators [data-bs-target]:nth-child(1) {
+    background-image: url("https://img.youtube.com/vi/IRNOoOYVn80/maxresdefault.jpg");
+}
+.carousel-indicators [data-bs-target]:nth-child(2) {
+    background-image: url("https://wallpaperset.com/w/full/8/c/5/439976.jpg");
+}
+.carousel-indicators [data-bs-target]:nth-child(3) {
+    background-image: url("https://4kwallpapers.com/images/wallpapers/assassins-creed-valhalla-pc-games-playstation-4-playstation-3840x2160-6153.jpg");
+}
+.game-info img{
+    filter: invert(1);
+}

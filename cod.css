@@ -1,0 +1,9 @@
+.carousel-indicators [data-bs-target]:nth-child(1) {
+    background-image: url("https://img.youtube.com/vi/oJca6zoI50E/maxresdefault.jpg");
+}
+.carousel-indicators [data-bs-target]:nth-child(2) {
+    background-image: url("https://w0.peakpx.com/wallpaper/217/168/HD-wallpaper-call-of-duty-warzone-2.jpg");
+}
+.carousel-indicators [data-bs-target]:nth-child(3) {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/557/189/265/call-of-duty-warzone-xbox-one-call-of-duty-black-ops-hd-wallpaper-preview.jpg");
+}

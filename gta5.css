@@ -1,0 +1,9 @@
+.carousel-indicators [data-bs-target]:nth-child(1) {
+    background-image: url("https://img.youtube.com/vi/HqZXw5M6qQY/maxresdefault.jpg");
+}
+.carousel-indicators [data-bs-target]:nth-child(2) {
+    background-image: url("https://wallpapers.com/images/featured/gta-5-qpjtjdxwbwrk4gyj.jpg");
+}
+.carousel-indicators [data-bs-target]:nth-child(3) {
+    background-image: url("https://www.chromethemer.com/wallpapers/chromebook-wallpapers/images/960/gta-5-michael-chromebook-wallpaper.jpg");
+}

@@ -1,0 +1,12 @@
+.page-1 .image-container{
+    height: 50vmin !important;
+    overflow: hidden;
+}
+body::-webkit-scrollbar{
+    background-color: black;
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(102, 102, 215);
+    border-radius: 10px;
+}

@@ -1,0 +1,12 @@
+.carousel-indicators [data-bs-target]:nth-child(1) {
+    background-image: url("https://wallpaperswide.com/download/watch_dogs_hd-wallpaper-2000x1333.jpg");
+}
+.carousel-indicators [data-bs-target]:nth-child(2) {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/429/818/529/5bf4f586b51a0-wallpaper-preview.jpg");
+}
+.carousel-indicators [data-bs-target]:nth-child(3) {
+    background-image: url("https://1.bp.blogspot.com/-gKK07lk0CpM/WG34_Qo80_I/AAAAAAAAWFs/15aODYc3N0AropfJdi1Is3lxE1Asz2k-gCLcB/s1600/Watch%2Bdogs%2B2%2BWallpapers%2B7.jpg");
+}
+.game-info img{
+    filter: invert(1);
+}

@@ -1,0 +1,9 @@
+.carousel-indicators [data-bs-target]:nth-child(1) {
+    background-image: url("https://img.youtube.com/vi/YjM67H0gP7U/maxresdefault.jpg");
+}
+.carousel-indicators [data-bs-target]:nth-child(2) {
+    background-image: url("https://gamingbolt.com/wp-content/uploads/2012/07/Sleeping-Dogs-wallpaper-HD.jpg");
+}
+.carousel-indicators [data-bs-target]:nth-child(3) {
+    background-image: url("https://e0.pxfuel.com/wallpapers/628/851/desktop-wallpaper-cyberpunk.jpg");
+}

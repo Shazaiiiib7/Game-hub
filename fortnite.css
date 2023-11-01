@@ -1,0 +1,9 @@
+.carousel-indicators [data-bs-target]:nth-child(1) {
+    background-image: url("https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000010192/d7d122e8b5680f10d50587141a9f8c4fab17d8557b884a60531d16e861a70cb3");
+}
+.carousel-indicators [data-bs-target]:nth-child(2) {
+    background-image: url("https://m.media-amazon.com/images/I/91TnX-q6c7L.png");
+}
+.carousel-indicators [data-bs-target]:nth-child(3) {
+    background-image: url("https://prod.assets.earlygamecdn.com/images/fortnite-superlevel-styles.jpg?transform=banner2x_webp");
+}

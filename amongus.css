@@ -1,0 +1,9 @@
+.carousel-indicators [data-bs-target]:nth-child(1) {
+    background-image: url("https://img.youtube.com/vi/9pyYq9lpjls/maxresdefault.jpg");
+}
+.carousel-indicators [data-bs-target]:nth-child(2) {
+    background-image: url("https://img.youtube.com/vi/CermGp8bwFE/maxresdefault.jpg");
+}
+.carousel-indicators [data-bs-target]:nth-child(3) {
+    background-image: url("https://i.pinimg.com/originals/27/ae/69/27ae691289ee6b358bdbfeff44e9bc5b.jpg");
+}

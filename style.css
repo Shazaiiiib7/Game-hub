@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-family: regular;
+}
+body::-webkit-scrollbar{
+    background-color: black;
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(102, 102, 215);
+    border-radius: 10px;
+}
+:root{
+    --grey-bg-color : rgba(51, 51, 51, 0.743);
+    --grey-text-color : rgb(175, 175, 175);
+}
+@font-face {
+    font-family: regular;
+    src: url("Roboto-woff2.woff2");
+}
+a{
+    text-decoration: none;
+    color: var(--grey-text-color);
+    cursor: pointer;
+}
+.badge{
+    letter-spacing: 1px;
+    color: var(--grey-text-color);
+}
+
+/* page-1 starts from here */
+.page-1 .navbar{
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.page-1 .navbar i{
+    color: white;
+    font-size: 2rem;
+}
+.page-1 .navbar img{
+    width: 4rem;
+    filter: invert(1);
+}
+
+/* page-1 second part */
+.page-1 input[type = text]{
+    border: none;
+    background-color: var(--grey-bg-color);
+    padding:0.5rem  1rem ;
+    border-radius: 40px;
+}
+.page-1 input[type = text]::placeholder{
+    font-size: 0.8rem;
+    color: var(--grey-text-color);
+}
+/* page-1 third part */
+.page-1 .pics-section{
+    height: fit-content;
+}
+.page-1 .pic-container{
+    height: fit-content;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 0;
+}
+
+.page-1 .pic-container img{
+    border-radius: 30px;
+    width: 60%;
+    height: 70%;
+}
+.page-1 .carousel-indicators [data-bs-target]{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+.page-1 .carousel-indicators{
+    top : 104%;
+}
+
+.page-1 .side-container img{
+    width: 4rem ;
+    height: 6rem;
+    border-radius:5px;
+}
+
+/* page 2 start from here */
+
+.page-2{
+    margin-top: 7vmax;
+}
+.page-2 .games-container::-webkit-scrollbar{
+    display: none;
+}
+.page-2 .games-container{
+    display: flex;
+    white-space:nowrap;
+    gap: 2rem;
+    overflow-x: auto ;
+    overflow-y: hidden;
+}
+.page-2 .box{
+    height: 15rem;   
+    border-radius:10px ;
+    overflow: hidden;
+}
+.page-2 .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.page-2 .haha{
+    border: 2px solid red;
+}
+/* page-3 starts from here */
+
+.page-3 .free-games-container{
+    background-color: var(--grey-bg-color);
+    border-radius: 4px;
+}
+.page-3 .image-container{
+    height: 23rem;
+    overflow: hidden;
+}
+.page-3 img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+/* footer */
+footer{
+    background-color: var(--grey-bg-color);
+}
+footer .links i{
+    font-size: 2rem;
+}
+footer a{
+    color: var(--grey-text-color);
+    font-size: small;
+}
+footer .copyright{
+    color: var(--grey-text-color);
+}
